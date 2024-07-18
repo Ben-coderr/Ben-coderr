@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on **my portfolio**
 
-- 🌱 I’m currently learning **react.js**
+- 🌱 I’m currently learning **node.js**
 
 - 👨‍💻 All of my projects are available at [https://ben-coderr.github.io/](https://ben-coderr.github.io/)
 
