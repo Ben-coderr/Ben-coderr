@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **node.js**
 
-- 👨‍💻 All of my projects are available at [https://ben-coderr.github.io/](https://ben-coderr.github.io/)
+- 👨‍💻 All of my projects are available at ([https://ben-coderr.github.io/](https://bencoder.netlify.app/))
 
 - 📫 How to reach me **ben.coder.01@gmail.com**
 
