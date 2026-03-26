@@ -34,7 +34,7 @@
   <img src="https://img.shields.io/badge/Discord-Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0D1117" />
 </a>
 
-<br/><br/>
+<br/>
 
 <!-- ═══════════════════════════════════════════════════════ -->
 <!--              SNAKE CONTRIBUTION ANIMATION              -->
