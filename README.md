@@ -6,7 +6,7 @@
 <!-- TYPING ROLES -->
 <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=20&weight=600&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=550&lines=Fullstack+Developer;Data+Science+Student;React+Native+%26+Mobile+Dev;Startup+Founder+%26+Builder;UI+%2F+UX+Craftsman" alt="Typing SVG" />
 
-<br/><br/>
+<br/>
 
 <!-- STATUS BADGES — clean, no emoji in URL -->
 <img src="https://img.shields.io/badge/Algeria-Location-3FB950?style=flat-square&logo=googlemaps&logoColor=white&labelColor=161B22" />
