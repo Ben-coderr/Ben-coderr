@@ -1,132 +1,34 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--           CUSTOM ANIMATED SVG HEADER                   -->
-<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ██████████████████████████████████████████████████████ -->
+<!--              TOP WAVE — DARK ENTRY                     -->
+<!-- ██████████████████████████████████████████████████████ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a2a4a,100:0D1117&height=120&section=header&reversal=true" />
 
-<svg width="100%" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <!-- Deep dark background gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#020917;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#0D1B2A;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#020917;stop-opacity:1" />
-    </linearGradient>
-    <!-- Electric blue name gradient -->
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   style="stop-color:#58A6FF" />
-      <stop offset="35%"  style="stop-color:#A5D8FF" />
-      <stop offset="65%"  style="stop-color:#58A6FF" />
-      <stop offset="100%" style="stop-color:#1F6FEB" />
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="3s" repeatCount="indefinite"/>
-    </linearGradient>
-    <!-- Glow filter for name -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <!-- Subtle grid pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#58A6FF" stroke-width="0.15" opacity="0.3"/>
-    </pattern>
-    <!-- Animated scanline -->
-    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%"   style="stop-color:#58A6FF;stop-opacity:0" />
-      <stop offset="50%"  style="stop-color:#58A6FF;stop-opacity:0.06" />
-      <stop offset="100%" style="stop-color:#58A6FF;stop-opacity:0" />
-    </linearGradient>
-    <!-- Subtitle gradient -->
-    <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   style="stop-color:#8B949E" />
-      <stop offset="50%"  style="stop-color:#C9D1D9" />
-      <stop offset="100%" style="stop-color:#8B949E" />
-    </linearGradient>
-  </defs>
+<!-- ██████████████████████████████████████████████████████ -->
+<!--                  GREETING TAG                          -->
+<!-- ██████████████████████████████████████████████████████ -->
 
-  <!-- Background -->
-  <rect width="900" height="320" fill="url(#bgGrad)" rx="12"/>
-  <!-- Grid overlay -->
-  <rect width="900" height="320" fill="url(#grid)" rx="12" opacity="0.6"/>
+<img src="https://img.shields.io/badge/%3C%20Hello%20World%20!%20%2F%3E-3FB950?style=flat-square&labelColor=0D1117&color=3FB950&logo=&logoColor=3FB950" height="28"/>
 
-  <!-- Corner accent lines - top left -->
-  <line x1="20" y1="20" x2="70" y2="20" stroke="#58A6FF" stroke-width="2" opacity="0.8"/>
-  <line x1="20" y1="20" x2="20" y2="70" stroke="#58A6FF" stroke-width="2" opacity="0.8"/>
-  <!-- Corner accent lines - top right -->
-  <line x1="880" y1="20" x2="830" y2="20" stroke="#58A6FF" stroke-width="2" opacity="0.8"/>
-  <line x1="880" y1="20" x2="880" y2="70" stroke="#58A6FF" stroke-width="2" opacity="0.8"/>
-  <!-- Corner accent lines - bottom left -->
-  <line x1="20" y1="300" x2="70" y2="300" stroke="#58A6FF" stroke-width="2" opacity="0.8"/>
-  <line x1="20" y1="300" x2="20" y2="250" stroke="#58A6FF" stroke-width="2" opacity="0.8"/>
-  <!-- Corner accent lines - bottom right -->
-  <line x1="880" y1="300" x2="830" y2="300" stroke="#58A6FF" stroke-width="2" opacity="0.8"/>
-  <line x1="880" y1="300" x2="880" y2="250" stroke="#58A6FF" stroke-width="2" opacity="0.8"/>
+<br/><br/>
 
-  <!-- Glowing orb left -->
-  <circle cx="120" cy="160" r="80" fill="#1F6FEB" opacity="0.07">
-    <animate attributeName="opacity" values="0.05;0.12;0.05" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <!-- Glowing orb right -->
-  <circle cx="780" cy="160" r="80" fill="#58A6FF" opacity="0.07">
-    <animate attributeName="opacity" values="0.07;0.14;0.07" dur="3.5s" repeatCount="indefinite"/>
-  </circle>
+<!-- ██████████████████████████████████████████████████████ -->
+<!--            NAME — via capsule-render                   -->
+<!-- using "soft" type which renders text beautifully       -->
+<!-- ██████████████████████████████████████████████████████ -->
 
-  <!-- Top decorative dot row -->
-  <circle cx="430" cy="38" r="2" fill="#58A6FF" opacity="0.6"/>
-  <circle cx="450" cy="38" r="2" fill="#58A6FF" opacity="0.4"/>
-  <circle cx="470" cy="38" r="2" fill="#58A6FF" opacity="0.2"/>
-  <circle cx="410" cy="38" r="2" fill="#58A6FF" opacity="0.4"/>
-  <circle cx="390" cy="38" r="2" fill="#58A6FF" opacity="0.2"/>
+<img width="95%" src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&customColorList=0,2,5,30&height=110&text=Abdenour%20Benkorich&fontSize=72&fontColor=58A6FF&fontAlign=50&fontAlignY=55&animation=fadeIn&desc=Fullstack%20Dev%20%E2%80%A2%20Data%20Science%20%E2%80%A2%20Startup%20Founder%20%E2%80%A2%20Mobile%20Dev&descSize=15&descAlign=50&descAlignY=80&descColor=8B949E" />
 
-  <!-- Greeting line -->
-  <text x="450" y="95" font-family="'Courier New', monospace" font-size="13" fill="#3FB950" text-anchor="middle" letter-spacing="4" opacity="0.9">
-    &lt; Hello World ! /&gt;
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
-  </text>
-
-  <!-- MAIN NAME — large, glowing, gradient -->
-  <text
-    x="450" y="175"
-    font-family="'Arial Black', 'Impact', sans-serif"
-    font-size="68"
-    font-weight="900"
-    fill="url(#nameGrad)"
-    text-anchor="middle"
-    letter-spacing="3"
-    filter="url(#glow)"
-  >ABDENOUR BENKORICH</text>
-
-  <!-- Thin accent line under name -->
-  <line x1="200" y1="192" x2="700" y2="192" stroke="url(#nameGrad)" stroke-width="1.5" opacity="0.5"/>
-
-  <!-- Role subtitle -->
-  <text x="450" y="228" font-family="'Courier New', monospace" font-size="14" fill="url(#subGrad)" text-anchor="middle" letter-spacing="2">
-    ⚡ Fullstack Dev  ·  🧠 Data Science  ·  🚀 Startup Founder  ·  📱 Mobile Dev
-  </text>
-
-  <!-- Bottom decorative dots -->
-  <circle cx="430" cy="270" r="2" fill="#58A6FF" opacity="0.6"/>
-  <circle cx="450" cy="270" r="2" fill="#58A6FF" opacity="0.4"/>
-  <circle cx="470" cy="270" r="2" fill="#58A6FF" opacity="0.2"/>
-  <circle cx="410" cy="270" r="2" fill="#58A6FF" opacity="0.4"/>
-  <circle cx="390" cy="270" r="2" fill="#58A6FF" opacity="0.2"/>
-
-  <!-- Animated scan bar -->
-  <rect width="900" height="90" fill="url(#scanGrad)" rx="0">
-    <animateTransform attributeName="transform" type="translate" from="0,-90" to="0,320" dur="4s" repeatCount="indefinite"/>
-  </rect>
-</svg>
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--               ANIMATED ROLE TYPING                     -->
-<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ██████████████████████████████████████████████████████ -->
+<!--               ANIMATED TYPING ROLES                    -->
+<!-- ██████████████████████████████████████████████████████ -->
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=🖥️+Fullstack+Developer;🧠+Data+Science+Student;📱+React+Native+%26+Mobile+Dev;🚀+Startup+Founder+%26+Builder;🎨+UI+%2F+UX+Craftsman;✨+Turning+ideas+into+products)](https://bencoder.netlify.app/)
+<a href="https://bencoder.netlify.app/">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&weight=700&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Fullstack+Developer+%F0%9F%96%A5%EF%B8%8F;Data+Science+Student+%F0%9F%A7%A0;React+Native+%26+Mobile+Dev+%F0%9F%93%B1;Startup+Founder+%F0%9F%9A%80;UI+%2F+UX+Craftsman+%F0%9F%8E%A8;Building+the+future+%E2%9C%A8" alt="Typing SVG" />
+</a>
 
 <br/><br/>
 
