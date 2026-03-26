@@ -16,7 +16,7 @@
 <img src="https://komarev.com/ghpvc/?username=ben-coderr&style=flat-square&color=58A6FF&labelColor=161B22&label=Profile+Views" />
 
 
-
+<br/>
 <!-- ═══════════════════════════════════════════════════════ -->
 <!--              SOCIAL LINKS — HEADER LEVEL               -->
 <!-- ═══════════════════════════════════════════════════════ -->
@@ -34,7 +34,7 @@
   <img src="https://img.shields.io/badge/Discord-Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0D1117" />
 </a>
 
-<br/><br/>
+<br/>
 
 <!-- ═══════════════════════════════════════════════════════ -->
 <!--              SNAKE CONTRIBUTION ANIMATION              -->
