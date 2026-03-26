@@ -103,8 +103,10 @@ I'm currently focused on launching my own **startup** — combining my passion f
  
 ### 🎨 Frontend
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue,sass,tailwind,bootstrap" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,nuxtjs,sass,tailwind,bootstrap" />
 </p>
+ 
+> React · Next.js · Vue · Nuxt.js · Tailwind CSS · SASS · Bootstrap · TypeScript
  
 ### 📱 Mobile Development
 <p>
@@ -115,8 +117,10 @@ I'm currently focused on launching my own **startup** — combining my passion f
  
 ### ⚙️ Backend & APIs
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,python,fastapi,flask,dotnet,spring,mongodb,mysql,postgres,firebase,supabase" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,python,fastapi,flask,dotnet,spring,graphql,prisma,mongodb,mysql,postgres,redis,firebase,supabase" />
 </p>
+ 
+> Node.js · Express · **NestJS** · FastAPI · Flask · .NET · Spring · GraphQL · Prisma · REST APIs
  
 ### 💻 Programming Languages
 <p>
@@ -148,8 +152,10 @@ I'm currently focused on launching my own **startup** — combining my passion f
  
 ### 🔧 DevOps & Tools
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,postman,figma,ps,illustrator" />
+  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,postman,figma,ps,illustrator,webpack,vite" />
 </p>
+ 
+> Git · Docker · Linux · Webpack · **Vite** · Postman · Figma · Photoshop · Illustrator
  
 ### ☁️ Cloud & Deployment
 <p>
