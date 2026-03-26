@@ -1,28 +1,117 @@
-<h1 align="center">Hi 👋, I'm Abdenour</h1>
-<h3 align="center">A passionate frontend developer from Algeria</h3>
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ben-coderr&label=Profile%20views&color=0e75b6&style=flat" alt="ben-coderr" /> </p>
+<!-- Dynamic Typing Header -->
+<a href="https://bencoder.netlify.app/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Abdenour+%F0%9F%91%8B;Frontend+Developer;UI+%2F+UX+Enthusiast;Always+learning+new+things" alt="Typing SVG" />
+</a>
 
-- 🔭 I’m currently working on **my portfolio**
+<br/>
 
-- 🌱 I’m currently learning **node.js**
-
-- 👨‍💻 All of my projects are available at ([https://ben-coderr.github.io/](https://bencoder.netlify.app/))
-
-- 📫 How to reach me **ben.coder.01@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/abdenour-benkorich" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="abdenour-benkorich" height="30" width="40" /></a>
-<a href="https://instagram.com/ben.coderr" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ben.coderr" height="30" width="40" /></a>
-<a href="https://discord.gg/https://discord.gg/dCSPTzk6rs" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discord.gg/dCSPTzk6rs" height="30" width="40" /></a>
+<!-- Subtitle -->
+<p>
+  <img src="https://img.shields.io/badge/Frontend%20Developer-%F0%9F%9A%80-58A6FF?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Based%20in-Algeria%20%F0%9F%87%A9%F0%9F%87%BF-green?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Open%20to-Opportunities-orange?style=for-the-badge&labelColor=0D1117" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> </p>
+<img src="https://komarev.com/ghpvc/?username=ben-coderr&style=for-the-badge&color=58A6FF&labelColor=0D1117" alt="Profile Views" />
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ben-coderr&show_icons=true&locale=en&layout=compact" alt="ben-coderr" /></p>
+</div>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ben-coderr&show_icons=true&locale=en" alt="ben-coderr" /></p>
+---
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ben-coderr&" alt="ben-coderr" /></p>
+## 🧑‍💻 About Me
+
+```typescript
+const abdenour = {
+  role:       "Frontend Developer",
+  location:   "Algeria 🇩🇿",
+  portfolio:  "https://bencoder.netlify.app/",
+  email:      "ben.coder.01@gmail.com",
+
+  currentFocus: [
+    "🔭 Building my portfolio",
+    "🌱 Learning Node.js & backend development",
+    "🎨 Crafting pixel-perfect UI experiences",
+  ],
+
+  passions: ["Clean Code", "UI/UX Design", "Open Source"],
+  funFact:  "I turn ☕ coffee into beautiful interfaces.",
+};
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### 🎨 Frontend
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue,sass,tailwind,bootstrap" />
+</p>
+
+### 🔧 Tools & Design
+<p>
+  <img src="https://skillicons.dev/icons?i=figma,ps,illustrator,git,github,linux,vscode" />
+</p>
+
+### 📚 Also Know
+<p>
+  <img src="https://skillicons.dev/icons?i=python,c,arduino,nodejs" />
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<a href="https://github.com/ben-coderr">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ben-coderr&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_color=30363D&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+</a>
+<a href="https://github.com/ben-coderr">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ben-coderr&layout=compact&theme=github_dark&border_color=30363D&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" />
+</a>
+
+<br/>
+
+<a href="https://github.com/ben-coderr">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ben-coderr&theme=github-dark-blue&border=30363D&background=0D1117&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" />
+</a>
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ben-coderr&theme=algolia&no-frame=true&no-bg=true&margin-w=6&column=7" />
+</div>
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ben-coderr&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true" />
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-bencoder.netlify.app-58A6FF?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=0D1117)](https://bencoder.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdenour%20Benkorich-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117)](https://linkedin.com/in/abdenour-benkorich)
+[![Instagram](https://img.shields.io/badge/Instagram-ben.coderr-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0D1117)](https://instagram.com/ben.coderr)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0D1117)](https://discord.gg/dCSPTzk6rs)
+[![Email](https://img.shields.io/badge/Email-ben.coder.01@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:ben.coder.01@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=100&section=footer&text=Thanks+for+visiting!&fontSize=24&fontColor=FFFFFF&animation=fadeIn" />
+</div>
