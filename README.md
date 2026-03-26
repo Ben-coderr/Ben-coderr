@@ -1,67 +1,37 @@
 <div align="center">
 
-<!-- ██████████████████████████████████████████████████████ -->
-<!--              TOP WAVE — DARK ENTRY                     -->
-<!-- ██████████████████████████████████████████████████████ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a2a4a,100:0D1117&height=120&section=header&reversal=true" />
+<!-- HEADER BANNER — name baked into wave image, always renders correctly -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,4,12,25&height=220&section=header&text=Abdenour%20Benkorich&fontSize=58&fontColor=FFFFFF&fontAlign=50&fontAlignY=42&animation=fadeIn&desc=Fullstack%20Developer%20%20%C2%B7%20%20Data%20Science%20%20%C2%B7%20%20Startup%20Founder%20%20%C2%B7%20%20Mobile%20Dev&descSize=16&descAlign=50&descAlignY=62&descColor=A5D8FF" />
 
-<!-- ██████████████████████████████████████████████████████ -->
-<!--                  GREETING TAG                          -->
-<!-- ██████████████████████████████████████████████████████ -->
-
-<img src="https://img.shields.io/badge/%3C%20Hello%20World%20!%20%2F%3E-3FB950?style=flat-square&labelColor=0D1117&color=3FB950&logo=&logoColor=3FB950" height="28"/>
-
-<br/><br/>
-
-<!-- ██████████████████████████████████████████████████████ -->
-<!--            NAME — via capsule-render                   -->
-<!-- using "soft" type which renders text beautifully       -->
-<!-- ██████████████████████████████████████████████████████ -->
-
-<img width="95%" src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&customColorList=0,2,5,30&height=110&text=Abdenour%20Benkorich&fontSize=72&fontColor=58A6FF&fontAlign=50&fontAlignY=55&animation=fadeIn&desc=Fullstack%20Dev%20%E2%80%A2%20Data%20Science%20%E2%80%A2%20Startup%20Founder%20%E2%80%A2%20Mobile%20Dev&descSize=15&descAlign=50&descAlignY=80&descColor=8B949E" />
-
-<!-- ██████████████████████████████████████████████████████ -->
-<!--               ANIMATED TYPING ROLES                    -->
-<!-- ██████████████████████████████████████████████████████ -->
+<!-- TYPING ROLES -->
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=20&weight=600&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=550&lines=Fullstack+Developer;Data+Science+Student;React+Native+%26+Mobile+Dev;Startup+Founder+%26+Builder;UI+%2F+UX+Craftsman" alt="Typing SVG" />
 
 <br/>
 
-<a href="https://bencoder.netlify.app/">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&weight=700&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Fullstack+Developer+%F0%9F%96%A5%EF%B8%8F;Data+Science+Student+%F0%9F%A7%A0;React+Native+%26+Mobile+Dev+%F0%9F%93%B1;Startup+Founder+%F0%9F%9A%80;UI+%2F+UX+Craftsman+%F0%9F%8E%A8;Building+the+future+%E2%9C%A8" alt="Typing SVG" />
+<!-- STATUS BADGES — clean, no emoji in URL -->
+<img src="https://img.shields.io/badge/Algeria-Location-3FB950?style=flat-square&logo=googlemaps&logoColor=white&labelColor=161B22" />
+<img src="https://img.shields.io/badge/Startup-Building-FF6B6B?style=flat-square&logo=rocket&logoColor=white&labelColor=161B22" />
+<img src="https://img.shields.io/badge/Freelance-Open%20to%20Work-F0A500?style=flat-square&logo=briefcase&logoColor=white&labelColor=161B22" />
+<img src="https://img.shields.io/badge/EN%20%7C%20FR%20%7C%20AR-Languages-A371F7?style=flat-square&logo=translate&logoColor=white&labelColor=161B22" />
+<img src="https://komarev.com/ghpvc/?username=ben-coderr&style=flat-square&color=58A6FF&labelColor=161B22&label=Profile+Views" />
+
+<br/><br/>
+
+<!-- SOCIAL LINKS -->
+<a href="https://bencoder.netlify.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-Visit-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=161B22" />
+</a>&nbsp;
+<a href="https://linkedin.com/in/abdenour-benkorich" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161B22" />
+</a>&nbsp;
+<a href="mailto:ben.coder.01@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161B22" />
+</a>&nbsp;
+<a href="https://discord.gg/dCSPTzk6rs" target="_blank">
+  <img src="https://img.shields.io/badge/Discord-Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=161B22" />
 </a>
 
 <br/><br/>
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--              QUICK STATS SNAKE ROW                     -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-<table align="center" border="0">
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/⚡_Role-Fullstack%20%26%20DS%20Student-58A6FF?style=for-the-badge&labelColor=0D1117&color=58A6FF" />
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/📍_Location-Algeria%20🇩🇿-3FB950?style=for-the-badge&labelColor=0D1117&color=3FB950" />
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/🔥_Status-Building%20My%20Startup-FF6B6B?style=for-the-badge&labelColor=0D1117&color=FF6B6B" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/💼_Open%20To-Freelance%20%26%20Collab-F0A500?style=for-the-badge&labelColor=0D1117&color=F0A500" />
-    </td>
-    <td align="center">
-      <img src="https://komarev.com/ghpvc/?username=ben-coderr&style=for-the-badge&color=58A6FF&labelColor=0D1117&label=👁️%20Profile%20Views" />
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/🌍_Language-EN%20%7C%20FR%20%7C%20AR-A371F7?style=for-the-badge&labelColor=0D1117&color=A371F7" />
-    </td>
-  </tr>
-</table>
-
-<br/>
 
 <!-- ═══════════════════════════════════════════════════════ -->
 <!--              SOCIAL LINKS — HEADER LEVEL               -->
