@@ -1,21 +1,82 @@
 <div align="center">
 
-<!-- Capsule Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Abdenour%20Benkorich&fontSize=50&fontColor=FFFFFF&animation=twinkling&fontAlignY=38&desc=Fullstack%20Dev%20%7C%20Data%20Science%20Student%20%7C%20Startup%20Founder&descAlignY=60&descSize=16" />
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--                  EPIC HEADER BANNER                    -->
+<!-- ═══════════════════════════════════════════════════════ -->
 
-<!-- Dynamic Typing -->
-<a href="https://bencoder.netlify.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Fullstack+Developer+%F0%9F%96%A5%EF%B8%8F;Data+Science+Student+%F0%9F%A7%A0;Mobile+App+Developer+%F0%9F%93%B1;Startup+Founder+%F0%9F%9A%80;UI+%2F+UX+Enthusiast+%F0%9F%8E%A8;Always+building+something+new+%E2%9C%A8" alt="Typing SVG" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=280&section=header&text=Abdenour%20Benkorich&fontSize=62&fontColor=FFFFFF&animation=fadeIn&fontAlignY=45&desc=⚡%20Fullstack%20Dev%20·%20🧠%20Data%20Science%20·%20🚀%20Startup%20Founder&descAlignY=68&descSize=18&stroke=58A6FF&strokeWidth=2" />
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--               ANIMATED GREETING                        -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&multiline=false&width=750&height=50&lines=🖥️+Fullstack+Developer;🧠+Data+Science+Student;📱+React+Native+%26+Mobile+Dev;🚀+Startup+Founder+%26+Builder;🎨+UI+%2F+UX+Craftsman;✨+Turning+ideas+into+products" alt="Typing SVG" />
+
+<br/><br/>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--              QUICK STATS SNAKE ROW                     -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<table align="center" border="0">
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/⚡_Role-Fullstack%20%26%20DS%20Student-58A6FF?style=for-the-badge&labelColor=0D1117&color=58A6FF" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/📍_Location-Algeria%20🇩🇿-3FB950?style=for-the-badge&labelColor=0D1117&color=3FB950" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/🔥_Status-Building%20My%20Startup-FF6B6B?style=for-the-badge&labelColor=0D1117&color=FF6B6B" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/💼_Open%20To-Freelance%20%26%20Collab-F0A500?style=for-the-badge&labelColor=0D1117&color=F0A500" />
+    </td>
+    <td align="center">
+      <img src="https://komarev.com/ghpvc/?username=ben-coderr&style=for-the-badge&color=58A6FF&labelColor=0D1117&label=👁️%20Profile%20Views" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/🌍_Language-EN%20%7C%20FR%20%7C%20AR-A371F7?style=for-the-badge&labelColor=0D1117&color=A371F7" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--              SOCIAL LINKS — HEADER LEVEL               -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<a href="https://bencoder.netlify.app/" target="_blank">
+  <img src="https://img.shields.io/badge/🌐_Portfolio-Visit%20Now-58A6FF?style=for-the-badge&labelColor=0D1117" />
+</a>&nbsp;
+<a href="https://linkedin.com/in/abdenour-benkorich" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" />
+</a>&nbsp;
+<a href="mailto:ben.coder.01@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" />
+</a>&nbsp;
+<a href="https://discord.gg/dCSPTzk6rs" target="_blank">
+  <img src="https://img.shields.io/badge/Discord-Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0D1117" />
 </a>
 
 <br/><br/>
 
-<!-- Badges Row -->
-<img src="https://img.shields.io/badge/Role-Fullstack%20Dev%20%26%20DS%20Student-58A6FF?style=for-the-badge&labelColor=0D1117" />
-<img src="https://img.shields.io/badge/Based%20in-Algeria%20%F0%9F%87%A9%F0%9F%87%BF-3FB950?style=for-the-badge&labelColor=0D1117" />
-<img src="https://img.shields.io/badge/Status-Building%20My%20Startup%20%F0%9F%94%A5-FF6B6B?style=for-the-badge&labelColor=0D1117" />
-<br/>
-<img src="https://komarev.com/ghpvc/?username=ben-coderr&style=for-the-badge&color=58A6FF&labelColor=0D1117" alt="Profile Views" />
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--              SNAKE CONTRIBUTION ANIMATION              -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ben-coderr/ben-coderr/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ben-coderr/ben-coderr/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/ben-coderr/ben-coderr/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
 
 </div>
 
