@@ -15,23 +15,7 @@
 <img src="https://img.shields.io/badge/EN%20%7C%20FR%20%7C%20AR-Languages-A371F7?style=flat-square&logo=translate&logoColor=white&labelColor=161B22" />
 <img src="https://komarev.com/ghpvc/?username=ben-coderr&style=flat-square&color=58A6FF&labelColor=161B22&label=Profile+Views" />
 
-<br/><br/>
 
-<!-- SOCIAL LINKS -->
-<a href="https://bencoder.netlify.app/" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-Visit-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=161B22" />
-</a>&nbsp;
-<a href="https://linkedin.com/in/abdenour-benkorich" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161B22" />
-</a>&nbsp;
-<a href="mailto:ben.coder.01@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161B22" />
-</a>&nbsp;
-<a href="https://discord.gg/dCSPTzk6rs" target="_blank">
-  <img src="https://img.shields.io/badge/Discord-Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=161B22" />
-</a>
-
-<br/><br/>
 
 <!-- ═══════════════════════════════════════════════════════ -->
 <!--              SOCIAL LINKS — HEADER LEVEL               -->
