@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="869" height="267" viewBox="0 0 869 267" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><style>@keyframes cell {
-  0%   { opacity: 0; transform: translateY(-8px) scale(0.6); }
+<svg xmlns="http://www.w3.org/2000/svg" width="873" height="265" viewBox="0 0 873 265" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"><style>@keyframes cellIn {
+  0%   { opacity: 0; transform: translateY(-4px) scale(0.7); }
   100% { opacity: 1; transform: translateY(0) scale(1); }
 }
 .c { opacity: 0; animation: cell 0.38s cubic-bezier(0.16, 1, 0.3, 1) both; }

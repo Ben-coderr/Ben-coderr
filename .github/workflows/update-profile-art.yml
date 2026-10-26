@@ -1,7 +1,7 @@
 name: Update profile art
 
-# Refreshes the contribution heatmap + info card daily from live GitHub data.
-# Runs daily, on push to main, and on-demand via workflow_dispatch.
+# Refreshes the contribution heatmap, stats dashboard, and profile card daily from live GitHub data.
+# Runs daily at 06:17 UTC, on push to main, and on-demand via workflow_dispatch.
 
 "on":
   schedule:
@@ -39,11 +39,11 @@ jobs:
       - name: Render stats SVG
         run: python scripts/render_stats_svg.py
 
-      - name: Render info card SVG
-        run: python scripts/make_info_card.py
+      - name: Render profile card SVG
+        run: python scripts/make_profile_card.py
 
       - name: Commit updated art
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh contribution graph & profile stats [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg info-card.svg"
+          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg profile-card.svg"
