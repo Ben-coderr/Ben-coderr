@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """
-Render data/contributions.json (produced by fetch_contributions.py) as a proper
-GitHub-style contribution heatmap SVG: a grid of rounded, colored BOXES in the
-classic 53-week x 7-day calendar, revealed once with a diagonal line-after-line
-slide-down (CSS keyframes, plays on load then freezes -- no looping "glow"), a
-Less->More legend, and a real stats footer.
-
-Run by .github/workflows/update-profile-art.yml after fetch_contributions.py.
+Render data/contributions.json as a Cyberpunk / Neo-Matrix style contribution heatmap SVG:
+- Dark obsidian background with glowing cyber border
+- Emerald / neon green matrix color palette
+- Staggered diagonal cascade reveal animation
+- Live streak and activity summary footer
 """
 import datetime
 import json
@@ -17,8 +15,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 IN_PATH = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "data", "contributions.json")
 OUT_PATH = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "contrib-heatmap.svg")
 
-# GitHub-ish green ramp: empty -> brightest. Level 5 is a brighter neon top end.
-PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"]
+# Cyberpunk / Neo-Matrix palette: empty -> neon green top
+PALETTE = ["#0f172a", "#064e3b", "#047857", "#059669", "#10b981", "#00ff88"]
 
 CELL = 12
 GAP = 3
@@ -26,21 +24,20 @@ STEP = CELL + GAP
 PAD = 22
 LEFT_LABEL_W = 30
 TOP_LABEL_H = 20
-TITLEBAR_H = 30
+TITLEBAR_H = 32
 
-BG = "#0a0e14"
-BG2 = "#0d1420"
-FRAME = "#1f6feb"
-MUTED = "#7d8590"
-TEXT = "#e6edf3"
-ACCENT = "#22d3ee"
-GREEN = "#39d353"
-GOLD = "#f2cc60"
+BG = "#06090e"
+BG2 = "#0d1520"
+MUTED = "#64748b"
+TEXT = "#e2e8f0"
+CYAN = "#00f0ff"
+GREEN = "#00ff88"
+GOLD = "#fbbf24"
 
-# reveal timing (one-shot)
-COL_T = 0.018   # per-column delay contribution (left -> right sweep)
-ROW_T = 0.045   # per-row delay contribution (top -> bottom cascade)
-CELL_DUR = 0.42
+# reveal timing
+COL_T = 0.016
+ROW_T = 0.040
+CELL_DUR = 0.38
 
 
 def level_for(count):
@@ -59,7 +56,7 @@ def level_for(count):
 
 def build_grid(days):
     first = datetime.date.fromisoformat(days[0]["date"])
-    lead_pad = (first.weekday() + 1) % 7  # sunday=0
+    lead_pad = (first.weekday() + 1) % 7
     grid = []
     col = [None] * lead_pad
     for d in days:
@@ -104,10 +101,10 @@ def render(data):
 
     css = f"""
 @keyframes cell {{
-  0%   {{ opacity: 0; transform: translateY(-6px); }}
-  100% {{ opacity: 1; transform: translateY(0); }}
+  0%   {{ opacity: 0; transform: translateY(-8px) scale(0.6); }}
+  100% {{ opacity: 1; transform: translateY(0) scale(1); }}
 }}
-.c {{ opacity: 0; animation: cell {CELL_DUR:.2f}s cubic-bezier(.2,.8,.2,1) both; }}
+.c {{ opacity: 0; animation: cell {CELL_DUR:.2f}s cubic-bezier(0.16, 1, 0.3, 1) both; }}
 @media (prefers-reduced-motion: reduce) {{ .c {{ opacity: 1 !important; transform: none !important; animation: none !important; }} }}
 """.strip()
 
@@ -115,19 +112,24 @@ def render(data):
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{canvas_w}" height="{canvas_h}" '
         f'viewBox="0 0 {canvas_w} {canvas_h}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
         f'<style>{css}</style>',
-        '<defs>'
+        '<defs>',
         f'<linearGradient id="hbg" x1="0" y1="0" x2="0" y2="1">'
-        f'<stop offset="0" stop-color="{BG2}"/><stop offset="1" stop-color="{BG}"/></linearGradient>'
+        f'<stop offset="0%" stop-color="{BG2}"/><stop offset="100%" stop-color="{BG}"/></linearGradient>',
+        '<linearGradient id="cyberBorder" x1="0" y1="0" x2="1" y2="1">'
+        '<stop offset="0%" stop-color="#00f0ff" stop-opacity="0.7"/>'
+        '<stop offset="50%" stop-color="#00ff88" stop-opacity="0.3"/>'
+        '<stop offset="100%" stop-color="#38bdf8" stop-opacity="0.6"/>'
+        '</linearGradient>',
         '</defs>',
         f'<rect width="{canvas_w}" height="{canvas_h}" rx="12" fill="url(#hbg)"/>',
         f'<rect x="0.5" y="0.5" width="{canvas_w-1}" height="{canvas_h-1}" rx="12" '
-        f'fill="none" stroke="{FRAME}" stroke-width="1" stroke-opacity="0.55"/>',
-        f'<line x1="0" y1="{TITLEBAR_H}" x2="{canvas_w}" y2="{TITLEBAR_H}" stroke="{FRAME}" stroke-opacity="0.35"/>',
+        f'fill="none" stroke="url(#cyberBorder)" stroke-width="1.5"/>',
+        f'<line x1="0" y1="{TITLEBAR_H}" x2="{canvas_w}" y2="{TITLEBAR_H}" stroke="#00f0ff" stroke-opacity="0.25"/>',
     ]
-    for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
+    for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#00ff88"]):
         parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dotcol}"/>')
-    parts.append(f'<text x="{canvas_w/2}" y="{TITLEBAR_H/2 + 4}" fill="{MUTED}" font-size="12" '
-                 f'text-anchor="middle">benkorich@github: ~/contributions --graph</text>')
+    parts.append(f'<text x="{canvas_w/2}" y="{TITLEBAR_H/2 + 4}" fill="#5eead4" font-size="12" font-weight="600" '
+                 f'text-anchor="middle">ben-coderr@cyber-deck: ~/contributions --matrix</text>')
 
     grid_top = TITLEBAR_H + TOP_LABEL_H
     grid_left = PAD + LEFT_LABEL_W
@@ -140,7 +142,6 @@ def render(data):
         y = grid_top + wi * STEP + CELL * 0.78
         parts.append(f'<text x="{PAD}" y="{y:.1f}" fill="{MUTED}" font-size="9">{wname}</text>')
 
-    # the boxes -- each a rounded rect, diagonal slide-down reveal (once, freeze)
     for ci, column in enumerate(grid):
         gx = grid_left + ci * STEP
         for ri, cell in enumerate(column):
@@ -156,7 +157,7 @@ def render(data):
                 f'<title>{date_s}: {count} contribution{plural}</title></rect>'
             )
 
-    # legend: Less [][][][][] More (bottom-right of the grid)
+    # Legend
     leg_y = grid_top + art_h + 6
     leg_x = canvas_w - PAD - (len(PALETTE) * (CELL - 1) + 70)
     parts.append(f'<text x="{leg_x}" y="{leg_y + CELL*0.8:.1f}" fill="{MUTED}" font-size="10" text-anchor="end">Less</text>')
@@ -167,7 +168,7 @@ def render(data):
     parts.append(f'<text x="{lx + 4}" y="{leg_y + CELL*0.8:.1f}" fill="{MUTED}" font-size="10">More</text>')
 
     sep_y = leg_y + CELL + 14
-    parts.append(f'<line x1="0" y1="{sep_y}" x2="{canvas_w}" y2="{sep_y}" stroke="{FRAME}" stroke-opacity="0.25"/>')
+    parts.append(f'<line x1="0" y1="{sep_y}" x2="{canvas_w}" y2="{sep_y}" stroke="#00f0ff" stroke-opacity="0.2"/>')
 
     cs = data["current_streak"]["length"]
     ls = data["longest_streak"]["length"]
@@ -176,7 +177,6 @@ def render(data):
     rng = data["range"]
 
     ly = sep_y + 24
-    # left column: big highlighted numbers; right column: context in muted
     parts.append(f'<text x="{PAD}" y="{ly}" font-size="13" fill="{GREEN}">'
                  f'<tspan font-weight="700">{total:,}</tspan>'
                  f'<tspan fill="{MUTED}"> contributions in the last year</tspan></text>')
@@ -184,9 +184,9 @@ def render(data):
                  f'{rng["start"]} &#8594; {rng["end"]}</text>')
     ly += 24
     parts.append(f'<text x="{PAD}" y="{ly}" font-size="13" fill="{MUTED}">current streak '
-                 f'<tspan fill="{ACCENT}" font-weight="700">{cs} days</tspan>'
+                 f'<tspan fill="{CYAN}" font-weight="700">{cs} days</tspan>'
                  f'<tspan fill="{MUTED}">   &#183;   longest </tspan>'
-                 f'<tspan fill="{ACCENT}" font-weight="700">{ls} days</tspan></text>')
+                 f'<tspan fill="{CYAN}" font-weight="700">{ls} days</tspan></text>')
     parts.append(f'<text x="{canvas_w - PAD}" y="{ly}" font-size="12" fill="{MUTED}" text-anchor="end">'
                  f'best day <tspan fill="{GOLD}" font-weight="700">{best["count"]}</tspan> on {best["date"]}</text>')
 
@@ -196,7 +196,7 @@ def render(data):
 
 if __name__ == "__main__":
     if not os.path.exists(IN_PATH):
-        print(f"Error: {IN_PATH} not found. Run fetch_contributions.py first.", file=sys.stderr)
+        print(f"Error: {IN_PATH} not found.", file=sys.stderr)
         sys.exit(1)
     data = json.load(open(IN_PATH))
     svg = render(data)

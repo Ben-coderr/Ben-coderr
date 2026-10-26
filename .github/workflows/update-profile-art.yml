@@ -1,6 +1,6 @@
 name: Update profile art
 
-# Refreshes the contribution graph + stats SVGs daily from real GitHub data.
+# Refreshes the contribution heatmap + info card daily from live GitHub data.
 # Runs daily, on push to main, and on-demand via workflow_dispatch.
 
 "on":

@@ -1,54 +1,43 @@
 <div align="center">
 
 <!-- ================================================================= -->
-<!-- 1. LIVE ANIMATED CONTRIBUTION HEATMAP                             -->
-<!-- Auto-refreshed daily by .github/workflows/update-profile-art.yml  -->
+<!-- 1. HERO TERMINAL: SELF-TYPING CYBER ART + NEOFETCH SYSTEM CARD   -->
 <!-- ================================================================= -->
 
-<h3><code>benkorich@github ~ $ ./contributions.sh</code></h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="Abdenour's GitHub Contribution Calendar — Auto-refreshed Daily" />
-
-<br><br>
-
-<!-- ================================================================= -->
-<!-- 2. TERMINAL WHOAMI: SELF-TYPING ASCII EMBLEM + NEOFETCH CARD     -->
-<!-- ================================================================= -->
-
-<h3><code>benkorich@github ~ $ whoami</code></h3>
+<h3><code>┌──(ben㉿cyberdeck)-[~] $ ./whoami.sh --neural-link</code></h3>
 
 <table>
   <tr>
-    <td valign="top"><img src="./ben-ascii.svg" width="420" alt="Abdenour Benkorich — Self-typing ASCII Emblem" /></td>
-    <td valign="top"><img src="./info-card.svg" width="420" alt="Terminal Info & Tech Stack Card" /></td>
+    <td valign="top"><img src="./ben-ascii.svg" width="425" alt="Abdenour Benkorich — Cyberpunk Developer Neural ASCII Art" /></td>
+    <td valign="top"><img src="./info-card.svg" width="425" alt="Terminal Info & Cyber Skill Meters" /></td>
   </tr>
 </table>
 
 <br><br>
 
 <!-- ================================================================= -->
-<!-- 3. LIVE ACTIVITY METRICS & MONTHLY BREAKDOWN                     -->
+<!-- 2. LIVE NEO-MATRIX CONTRIBUTION HEATMAP (Auto-Refreshed Daily)   -->
 <!-- ================================================================= -->
 
-<h3><code>benkorich@github ~ $ ./stats.sh</code></h3>
+<h3><code>┌──(ben㉿cyberdeck)-[~] $ ./contributions.sh --live-matrix</code></h3>
 
-<img src="./stats.svg" width="860" alt="Abdenour's Contribution Stats & Monthly Growth" />
+<img src="./contrib-heatmap.svg" width="860" alt="Live 53-Week Contribution Matrix — Auto-refreshed Daily" />
 
 <br><br>
 
 <!-- ================================================================= -->
-<!-- 4. QUICK LINKS & CONNECT                                          -->
+<!-- 3. NEURAL FREQUENCIES & CONNECT                                  -->
 <!-- ================================================================= -->
 
-<h3><code>benkorich@github ~ $ ./links.sh</code></h3>
+<h3><code>┌──(ben㉿cyberdeck)-[~] $ ./connect.sh</code></h3>
 
-<p><b>Fullstack Engineer · Mobile Architect · Data Science & AI Builder</b></p>
+<p><b>Fullstack Engineer · Mobile Architect · Data Science & AI Builder · Startup Founder</b></p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-bencoder.netlify.app-006d32?style=for-the-badge&logo=googlechrome&logoColor=white)](https://bencoder.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdenour%20Benkorich-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdenour-benkorich)
-[![Instagram](https://img.shields.io/badge/Instagram-ben.coderr-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ben.coderr)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/dCSPTzk6rs)
-[![Email](https://img.shields.io/badge/Email-ben.coder.01@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ben.coder.01@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-bencoder.netlify.app-00f0ff?style=for-the-badge&logo=googlechrome&logoColor=black&labelColor=0d1520)](https://bencoder.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdenour%20Benkorich-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1520)](https://linkedin.com/in/abdenour-benkorich)
+[![Instagram](https://img.shields.io/badge/Instagram-ben.coderr-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d1520)](https://instagram.com/ben.coderr)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1520)](https://discord.gg/dCSPTzk6rs)
+[![Email](https://img.shields.io/badge/Email-ben.coder.01@gmail.com-00ff88?style=for-the-badge&logo=gmail&logoColor=black&labelColor=0d1520)](mailto:ben.coder.01@gmail.com)
 
 <br>
 
@@ -56,7 +45,7 @@
 
 ---
 
-## 🚀 What I'm Building
+## ⚡ What I'm Building (0 → 1)
 
 <div align="center">
 
@@ -64,64 +53,64 @@
 
 </div>
 
-I am currently focused on building and launching my own **startup** — combining frontend craftsmanship, data-driven thinking, and product design to ship products from 0 → 1.
+I am building and launching my own **startup** — combining high-velocity frontend craftsmanship, data-driven intelligence, and scalable backend architecture to turn ideas into real products.
 
-- 💼 **Startup** — Early-stage product in active development
-- 📊 **Data Science & AI** — Practical ML/AI applied to real-world software
-- 🌍 **Mission** — Creating high-impact software experiences in MENA & beyond
+- 🚀 **Startup Launch** — Early-stage stealth product in active engineering
+- 🧠 **Data Science & AI** — Practical ML models, deep neural architectures, and intelligent workflows
+- 🌍 **Vision** — High-impact software experiences with razor-sharp UX across MENA & beyond
 
 ---
 
-## 🛠️ Full Tech Stack
+## 🛠️ Specialized Arsenal
 
-### 🎨 Frontend & Web
+### 🎨 Frontend & Web Architecture
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,nuxtjs,tailwind,bootstrap,sass" alt="Frontend Stack" />
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,vue,nuxtjs,tailwind,bootstrap,sass,html,css" alt="Frontend Stack" />
 </p>
 
-> React · Next.js · Vue · Nuxt.js · Tailwind CSS · TypeScript · SASS · Bootstrap
+> TypeScript · Next.js · React · Vue · Nuxt.js · Tailwind CSS · SASS · Bootstrap · Responsive UI/UX
 
-### 📱 Mobile Development
+### 📱 Cross-Platform & Native Mobile
 <p>
   <img src="https://skillicons.dev/icons?i=react,flutter,kotlin,swift,androidstudio" alt="Mobile Stack" />
 </p>
 
-> React Native · Expo · Flutter · Kotlin · Swift · Cross-platform & Native
+> React Native · Expo · Flutter · Kotlin · Swift · iOS & Android Native Modules
 
-### ⚙️ Backend & APIs
+### ⚙️ Scalable Backends & Distributed Systems
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,python,fastapi,flask,dotnet,spring,graphql,prisma,mongodb,mysql,postgres,redis,supabase,firebase" alt="Backend Stack" />
+  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,python,fastapi,postgres,redis,mongodb,supabase,firebase" alt="Backend Stack" />
 </p>
 
-> Node.js · Express · **NestJS** · FastAPI · Python · PostgreSQL · Redis · MongoDB · Supabase · Firebase
+> Node.js · **NestJS** · FastAPI · Python · PostgreSQL · Redis · MongoDB · Supabase · Firebase · REST & GraphQL
 
-### 🧠 Data Science, AI & Machine Learning
+### 🧠 Data Science, Machine Learning & Computer Vision
 <p>
   <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv,jupyter,matlab" alt="Data Science Stack" />
 </p>
 
-> PyTorch · TensorFlow · Scikit-learn · OpenCV · Pandas · NumPy · Matplotlib · Jupyter
+> PyTorch · TensorFlow · Scikit-learn · OpenCV · NumPy · Pandas · Matplotlib · Jupyter Notebooks
 
-### 🤖 Embedded Systems & Robotics
+### 🤖 Embedded Systems, IoT & Robotics
 <p>
   <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,cpp,c" alt="Hardware Stack" />
 </p>
 
 > ESP32 · STM32 · Arduino · Raspberry Pi · ROS (Robot Operating System) · C / C++ · MicroPython
 
-### 🔧 DevOps, Cloud & Tools
+### 🔧 DevOps, Tooling & Environments
 <p>
   <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vite,postman,figma,vscode" alt="Tools Stack" />
 </p>
 
-> Git · GitHub Actions · Docker · Linux · Vite · Postman · Figma
+> Git · GitHub Actions CI/CD · Docker · Linux / Arch / macOS · Vite · Postman · Figma
 
 ---
 
 ## 🧭 Dev Journey
 
 ```
-2020 ──── HTML / CSS / JS                          🟢 Mastered
+2020 ──── HTML / CSS / JavaScript                  🟢 Mastered
 2021 ──── React · Vue · Bootstrap · SASS           🟢 Mastered
 2022 ──── Figma · Git · Python · Arduino           🟢 Mastered
 2023 ──── React Native · Node.js · MongoDB         🟡 Proficient
@@ -133,5 +122,5 @@ I am currently focused on building and launching my own **startup** — combinin
 <br>
 
 <div align="center">
-  <b>💬 Open to collaborations, freelance engineering, or high-conviction startup conversations. Reach out anytime!</b>
+  <b>💬 Open to collaborations, high-conviction engineering, or startup discussions. Reach out anytime!</b>
 </div>
