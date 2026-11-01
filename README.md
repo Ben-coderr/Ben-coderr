@@ -1,15 +1,16 @@
 <div align="center">
 
-# Abdenour Benkorich
+# Abdenour Benkorich (BenCoder)
 
-### Fullstack Engineer · Mobile Architect · Data Science & AI Builder
+### AI Instructor · Full-Stack Software Engineer · Data Science · Tech Content Creator
 
 <p align="center">
-  <a href="https://bencoder.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-bencoder.netlify.app-0969da?style=flat-square&logo=safari&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/abdenour-benkorich"><img src="https://img.shields.io/badge/LinkedIn-Abdenour%20Benkorich-0077b5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:ben.coder.01@gmail.com"><img src="https://img.shields.io/badge/Email-ben.coder.01%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://discord.gg/dCSPTzk6rs"><img src="https://img.shields.io/badge/Discord-Community-5865f2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
-  <img src="https://img.shields.io/badge/Status-Available%20for%20High--Impact%20Engineering-2ea44f?style=flat-square" alt="Status" />
+  <a href="https://bencoder.site"><img src="https://img.shields.io/badge/Portfolio-bencoder.site-0A0A0A?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://instagram.com/ben.coderr"><img src="https://img.shields.io/badge/Instagram-102K%2B%20Community-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://www.udemy.com/course/bencoderr-python-course-arabic/"><img src="https://img.shields.io/badge/Udemy-4.8★%20Course%20(300%2B)-A435F0?style=flat-square&logo=udemy&logoColor=white" alt="Udemy" /></a>
+  <a href="https://linkedin.com/in/danour"><img src="https://img.shields.io/badge/LinkedIn-Abdenour%20Benkorich-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:benkorich.abdenour@gmail.com"><img src="https://img.shields.io/badge/Email-benkorich.abdenour%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Status-Available%20for%20AI%20Teaching%20%26%20Engineering-10B981?style=flat-square" alt="Status" />
 </p>
 
 <!-- ================================================================= -->
@@ -36,10 +37,23 @@
 <img src="./contrib-heatmap.svg" width="850" alt="Live 53-Week Contribution Heatmap (Auto-refreshed Daily)" />
 
 <p align="center">
-  <sub><i>Self-contained SVG engine with native SMIL/CSS animations · Auto-refreshed daily via GitHub Actions · Zero 3rd-party dependencies</i></sub>
+  <sub><i>Self-contained SVG engine with native SMIL/CSS animations · Auto-refreshed daily via GitHub Actions · Zero 3rd-party runtime dependencies</i></sub>
 </p>
 
 </div>
+
+---
+
+## ⚡ Quick Impact Metrics
+
+| Metric | Achievement / Responsibility | Scope |
+| :--- | :--- | :--- |
+| **102,000+** | **Developer Community** reached via **BenCoder** | Arabic tech tutorials, AI guides & system breakdowns *(est. 2022)* |
+| **Lead AI Instructor** | **Everest Academy** | Spearheading the intensive *"Build with AI"* bootcamp (LLMs & Agents) |
+| **300+ Learners · 4.8★** | **Udemy Course Author** | *"Python for Beginners in Arabic"* (algorithmic thinking to OOP) |
+| **Speaker & Instructor** | **University & Tech Hubs** | Multi-city technical workshops across Tlemcen, Algiers & Oran *(since 2023)* |
+| **State Engineer (PFE 2026)** | **Computer Engineering & Data Science** | 5-year integrated program @ Université Abdelhamid Ibn Badis |
+| **Sub-300ms** | **Production Edge Latency** | Architected **JG SupplyNet** (Algeria's digital B2B procurement network) |
 
 ---
 
@@ -48,75 +62,160 @@
 ```typescript
 interface SeniorEngineer {
   name: string;
+  brand: string;
   title: string;
   location: string;
   academics: string;
-  ventures: string[];
+  pedagogy: string[];
+  flagshipArchitectures: string[];
   coreStrengths: string[];
-  currentFocus: string[];
   availability: string;
 }
 
 const abdenour: SeniorEngineer = {
   name: "Abdenour Benkorich",
-  title: "Fullstack Engineer & Mobile Architect",
-  location: "Mostaganem, Algeria 🇩🇿 (UTC+1)",
-  academics: "B.Sc. Data Science & Artificial Intelligence @ University of Mostaganem",
-  ventures: ["Startup Founder · 0 → 1 Stealth Digital Product"],
+  brand: "BenCoder",
+  title: "AI Instructor | Full-Stack Software Engineer | Data Science",
+  location: "Mostaganem, Algeria 🇩🇿 (UTC+1 · Worldwide Remote)",
+  academics: "State Engineering Degree in Computer Engineering & Data Science @ Univ Mostaganem",
+  pedagogy: [
+    "Lead AI Instructor @ Everest Academy ('Build with AI' Bootcamp)",
+    "Creator @ BenCoder (102K+ Community across Algeria & Arab region, est. 2022)",
+    "Author of Top-Rated Udemy Python Course (300+ students, 4.8★ rating)",
+    "Technical Speaker & Workshop Instructor (Multi-city events across Tlemcen, Algiers & Oran, since 2023)"
+  ],
+  flagshipArchitectures: [
+    "JG SupplyNet — Algerian National B2B Procurement Network (Sub-300ms, EN/FR/AR)",
+    "PhytoSense — Dual-Vision LLM Ethnobotany Intelligence Platform (PFE 2026)",
+    "VYRO — Made-to-Order Manufacturing Storefront with Chargily Pay (CIB/Edahabia)",
+    "New Way — AI Revenue Forecasting SaaS with Streaming Gemini & Linear Regression"
+  ],
   coreStrengths: [
-    "Fullstack Web Application Architecture (React, Next.js, TypeScript, Tailwind)",
-    "Cross-Platform & Native Mobile Engineering (React Native, Flutter, Native APIs)",
-    "Distributed Backend Systems & Scalable APIs (FastAPI, NestJS, Node.js, PostgreSQL)",
-    "Applied Machine Learning & Computer Vision (PyTorch, OpenCV, Scikit-Learn)",
-    "Embedded IoT & Robotics Systems (ESP32, STM32, Arduino, ROS)"
+    "Production Full-Stack Architecture (Next.js 16, React 19, Astro 5, TypeScript, Tailwind)",
+    "Applied AI & LLM Systems (Gemini 3.8 Flash, Groq LPU, Vercel AI SDK, Prompt Eng, Ollama)",
+    "High-Performance Backends & Data (FastAPI, Python, Node.js, PostgreSQL, Redis, SQLite FTS5)",
+    "Hardware Telemetry & Robotics (DZDuino Labs, Arduino, ESP32, Raspberry Pi, Sensors)",
+    "Algerian Integrations (Chargily Pay CIB/Edahabia, National Logistics & Freight Tables)"
   ],
-  currentFocus: [
-    "Engineering high-velocity web and mobile architectures with clean UX",
-    "Deploying machine intelligence pipelines into production applications"
-  ],
-  availability: "Available for High-Impact Contracting, Technical Leadership & Ventures"
+  availability: "Available for AI Teaching, Technical Speaking, High-Impact Engineering & Ventures"
 };
 ```
 
 ---
 
-## ⚡ What I'm Building
+## 🚀 Shipped Production Architectures & Case Studies
 
-- 🚀 **Startup Launch (0 → 1)** — Founder & fullstack engineer building a high-velocity digital platform from ground up, emphasizing scalability, modern UX, and real-time workflows.
-- 📱 **Mobile Architectures** — Designing cross-platform applications with smooth 60fps gesture handling, offline-first sync, and robust state management.
-- 🧠 **Applied AI & Computer Vision** — Training and deploying practical deep learning models for image processing, classification, and intelligent automation.
-- ⚡ **Embedded Systems** — Interfacing hardware sensors, microcontrollers (ESP32, STM32), and ROS nodes with cloud backends.
+<table>
+  <thead>
+    <tr>
+      <th width="28%">Platform / System</th>
+      <th width="42%">Architecture & Highlights</th>
+      <th width="30%">Core Technologies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b><a href="https://www.jgsupplynet.com">JG SupplyNet</a></b><br>
+        <sub>Algerian B2B Procurement Hub</sub>
+      </td>
+      <td>
+        Algeria's premier multi-lingual digital B2B procurement network and RFQ platform. Features trilingual localization (EN · FR · AR), sub-300ms server response times, high-concurrency quotation pipelines, and supplier dashboards.
+      </td>
+      <td>
+        <code>Next.js</code> · <code>TypeScript</code> · <code>Tailwind</code> · <code>PostgreSQL</code> · <code>Prisma</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><a href="https://phyto-sense-rose.vercel.app">PhytoSense</a></b><br>
+        <sub>AI Ethnobotany Platform (PFE 2026)</sub>
+      </td>
+      <td>
+        Scientific pharmacology intelligence platform for 156+ Algerian medicinal plants. Built with zero-downtime dual-vision failover (Pl@ntNet ➔ Kindwise Plant.id), cascading LLMs (Gemini Flash ➔ Groq), and offline SQLite FTS5 mobile engine.
+      </td>
+      <td>
+        <code>React Native</code> · <code>Expo 57</code> · <code>FastAPI</code> · <code>Gemini</code> · <code>Groq</code> · <code>SQLite FTS5</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><a href="https://vyro-web-eight.vercel.app">VYRO</a></b><br>
+        <sub>Made-to-Order Storefront</sub>
+      </td>
+      <td>
+        Monorepo manufacturing storefront with custom 3D/CNC CAD configuration pipeline, automated production order routing, and real-time payment settlement via Chargily Pay (Edahabia & CIB cards).
+      </td>
+      <td>
+        <code>Turborepo</code> · <code>Next.js 16</code> · <code>React 19</code> · <code>Chargily Pay</code> · <code>PostgreSQL</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><a href="https://new-way-proj.vercel.app">New Way</a></b><br>
+        <sub>AI Revenue Forecasting SaaS</sub>
+      </td>
+      <td>
+        Financial intelligence SaaS featuring automated CSV/Excel schema inference, 30-day linear regression forecasting, Recharts data visualization, and streaming Gemini narrative reasoning.
+      </td>
+      <td>
+        <code>Next.js</code> · <code>TypeScript</code> · <code>PapaParse</code> · <code>Recharts</code> · <code>Vercel AI SDK</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><a href="https://dzduino.com">DZDuino Labs</a></b><br>
+        <sub>Embedded Robotics & IoT</sub>
+      </td>
+      <td>
+        Conducted hands-on robotics labs teaching sensor telemetry (HC-SR04, MPU-6050 6-DOF IMU), PWM motor actuation, I2C/SPI protocols, and real-time C/C++ microcontroller firmware.
+      </td>
+      <td>
+        <code>Arduino Uno</code> · <code>ESP32</code> · <code>Raspberry Pi 4</code> · <code>C/C++</code> · <code>Python GPIO</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-## 🛠️ Technical Competencies
+## 🛠️ Technical Competencies & Arsenal
 
-| Domain | Technologies & Frameworks |
+| Domain | Technologies & Competencies |
 | :--- | :--- |
-| **Frontend Architecture** | React, Next.js, TypeScript, Vue.js, JavaScript (ESNext), Tailwind CSS, HTML5, CSS3/Sass |
-| **Mobile Development** | React Native, Flutter, Dart, Kotlin, Swift, Cross-Platform UI |
-| **Backend & Distributed Systems** | Node.js, NestJS, FastAPI, Express.js, Python, RESTful APIs, GraphQL, WebSockets |
-| **Data Science & AI / ML** | PyTorch, TensorFlow, Scikit-Learn, OpenCV, Pandas, NumPy, Data Pipelines |
-| **Databases & Caching** | PostgreSQL, Redis, MongoDB, Supabase, SQLite, Prisma ORM |
-| **DevOps & Cloud** | Docker, Linux (POSIX), GitHub Actions CI/CD, Nginx, Vite, Git Flow |
-| **Embedded & Robotics** | ESP32, STM32, Arduino, Raspberry Pi, Robot Operating System (ROS) |
-| **Workstation & Tooling** | macOS (Apple Silicon), Arch Linux, Ghostty, zsh, Neovim, VS Code |
+| **Artificial Intelligence & LLMs** | Large Language Models (LLMs), Google Gemini 3.8 Flash, Groq LPU, Vercel AI SDK, Prompt Engineering & Personas, Context Architecture, Multi-Provider Failover Cascading, Local Inference (Ollama), Vector Embeddings & Similarity Search (ChromaDB, pgvector), PyTorch |
+| **Full-Stack & Frontend Architecture** | TypeScript, React 19, Next.js 16 (App Router, Server Actions), Astro 5, Tailwind CSS (v3 & v4), Turborepo Monorepo Architecture, HTML5, CSS3, WCAG 2.1 AA Accessibility, Core Web Vitals Optimization |
+| **Mobile Engineering** | React Native, Expo SDK 57, Offline-First Architecture, SQLite FTS5, Gesture Handling, Native APIs |
+| **Backend & Distributed Systems** | Python 3, FastAPI, Node.js, Express.js, Django, RESTful APIs, PostgreSQL, MongoDB, Redis, Prisma ORM, Data Pipeline Design |
+| **Algerian Integrations & Payments** | Chargily Pay (Edahabia & CIB Cards), Cash on Delivery (COD) State Machines, Yalidine & ZR Express Logistics Tables, Pl@ntNet API, Kindwise API |
+| **Robotics & Embedded Systems** | Microcontroller Firmware, Arduino Uno (ATmega328P), Raspberry Pi 4 (Linux Edge Compute), ESP32, Embedded C/C++, Python GPIO, Sensor Telemetry (Ultrasonic, IMU, IR), PWM Actuation, I2C, SPI, UART |
+| **Tooling & Environment** | macOS (Apple Silicon), Arch Linux, Ghostty, zsh, Neovim, VS Code, Git Flow, Docker, GitHub Actions CI/CD |
+
+---
+
+## 🎙️ Pedagogy, Community & Speaking
+
+- 🎓 **Everest Academy:** Lead AI Instructor heading the *"Build with AI"* intensive formation, mentoring students from fundamental Python and prompt engineering to production AI applications.
+- 🌐 **BenCoder Platform (est. 2022):** Over **102,000+** Arabic developers engaged on Instagram ([@ben.coderr](https://instagram.com/ben.coderr)) and developer platforms with 45+ in-depth video breakdowns and guides.
+- 📚 **Udemy Course Author:** *"Python for Beginners in Arabic"* with **300+** students and a **4.8★** rating.
+- 🗣️ **Technical Speaker & Workshops (since 2023):** Conducting hands-on software development bootcamps, algorithmic seminars, and web engineering workshops across university hubs in Tlemcen, Algiers, and Oran.
 
 ---
 
 ## 🌐 Connect & Collaborate
 
-I am always interested in discussing new ventures, engineering challenges, and high-impact projects.
+I am always open to discussing AI curriculum design, technical workshops, engineering leadership, and high-impact ventures.
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-bencoder.netlify.app-0969da?style=for-the-badge&logo=safari&logoColor=white)](https://bencoder.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdenour%20Benkorich-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdenour-benkorich)
-[![Email](https://img.shields.io/badge/Email-ben.coder.01@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ben.coder.01@gmail.com)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865f2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/dCSPTzk6rs)
+[![Website](https://img.shields.io/badge/Website-bencoder.site-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://bencoder.site)
+[![Instagram](https://img.shields.io/badge/Instagram-@ben.coderr-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ben.coderr)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdenour%20Benkorich-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/danour)
+[![Udemy Course](https://img.shields.io/badge/Udemy-Python%20Course%20(4.8★)-A435F0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/course/bencoderr-python-course-arabic/)
+[![Email](https://img.shields.io/badge/Email-benkorich.abdenour@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:benkorich.abdenour@gmail.com)
 
 <br>
 
-**Mostaganem, Algeria 🇩🇿 · Open to Global Remote Opportunities**
+**Mostaganem, Algeria 🇩🇿 · Open to Global Remote Engagements**
 
 </div>

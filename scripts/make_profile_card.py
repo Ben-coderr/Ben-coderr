@@ -77,14 +77,14 @@ def render():
         svg.append(f'<text x="78" y="115" fill="{BLUE}" font-size="32" font-weight="700" text-anchor="middle">AB</text>')
 
     # Identity details
-    svg.append(f'<text x="150" y="86" fill="{TEXT}" font-size="25" font-weight="700">Abdenour Benkorich</text>')
-    svg.append(f'<text x="150" y="112" fill="{BLUE}" font-size="15" font-weight="600">Fullstack Engineer &amp; Mobile Architect</text>')
-    svg.append(f'<text x="150" y="132" fill="{MUTED}" font-size="13">@Ben-coderr · Mostaganem, Algeria 🇩🇿 (UTC+1)</text>')
+    svg.append(f'<text x="150" y="86" fill="{TEXT}" font-size="25" font-weight="700">Abdenour Benkorich (BenCoder)</text>')
+    svg.append(f'<text x="150" y="112" fill="{BLUE}" font-size="15" font-weight="600">AI Instructor · Full-Stack Engineer · Tech Creator</text>')
+    svg.append(f'<text x="150" y="132" fill="{MUTED}" font-size="13">@Ben-coderr · 102K+ Community (est. 2022) · Mostaganem, DZ (UTC+1)</text>')
 
     # Availability pill
-    svg.append(f'<rect x="150" y="142" width="295" height="24" rx="12" fill="#1c2128" stroke="{FRAME}" stroke-width="1"/>')
+    svg.append(f'<rect x="150" y="142" width="310" height="24" rx="12" fill="#1c2128" stroke="{FRAME}" stroke-width="1"/>')
     svg.append(f'<circle cx="164" cy="154" r="4.5" fill="{GREEN}"/>')
-    svg.append(f'<text x="176" y="158" fill="{TEXT}" font-size="11.5" font-weight="500">Available for High-Impact Roles &amp; Ventures</text>')
+    svg.append(f'<text x="176" y="158" fill="{TEXT}" font-size="11.5" font-weight="500">Available for AI Teaching, Freelance &amp; Ventures</text>')
     svg.append('</g>')
 
     # Section Divider
@@ -102,65 +102,65 @@ def render():
     # Card 1: Specializations (Row 1, Col 1)
     svg.append(f'<g class="f" style="animation-delay:0.15s">')
     svg.append(f'<rect x="{COL1_X}" y="{GRID_Y}" width="{CARD_W}" height="{CARD_H1}" rx="10" fill="{CARD_BG}" stroke="{FRAME}" stroke-width="1"/>')
-    svg.append(f'<text x="{COL1_X+20}" y="{GRID_Y+30}" fill="{BLUE}" font-family="monospace" font-size="13" font-weight="700">// CORE SPECIALIZATIONS</text>')
+    svg.append(f'<text x="{COL1_X+20}" y="{GRID_Y+30}" fill="{BLUE}" font-family="monospace" font-size="13" font-weight="700">// CORE ENGINEERING</text>')
     specs1 = [
-        ("Fullstack Web", "React · Next.js · TypeScript · Tailwind"),
-        ("Mobile Systems", "React Native · Flutter · Native APIs"),
-        ("Backend &amp; APIs", "FastAPI · NestJS · Node.js · Express"),
+        ("Fullstack Web", "Next.js 16 · React 19 · Astro 5 · TypeScript"),
+        ("Applied AI/LLMs", "Large Language Models · Gemini · Groq · Vercel AI"),
+        ("Backend &amp; Data", "FastAPI · Node.js · Python · PostgreSQL · Redis"),
     ]
     for idx, (label, val) in enumerate(specs1):
         cy = GRID_Y + 62 + idx * 32
         svg.append(f'<text x="{COL1_X+20}" y="{cy}" fill="{MUTED}" font-size="12" font-family="monospace">{label}:</text>')
-        svg.append(f'<text x="{COL1_X+124}" y="{cy}" fill="{TEXT}" font-size="12.5" font-weight="500">{val}</text>')
+        svg.append(f'<text x="{COL1_X+124}" y="{cy}" fill="{TEXT}" font-size="12" font-weight="500">{val}</text>')
     svg.append('</g>')
 
-    # Card 2: AI & Embedded (Row 1, Col 2)
+    # Card 2: Pedagogy & Community (Row 1, Col 2)
     svg.append(f'<g class="f" style="animation-delay:0.25s">')
     svg.append(f'<rect x="{COL2_X}" y="{GRID_Y}" width="{CARD_W}" height="{CARD_H1}" rx="10" fill="{CARD_BG}" stroke="{FRAME}" stroke-width="1"/>')
-    svg.append(f'<text x="{COL2_X+20}" y="{GRID_Y+30}" fill="{PURPLE}" font-family="monospace" font-size="13" font-weight="700">// INTELLIGENCE &amp; ROBOTICS</text>')
+    svg.append(f'<text x="{COL2_X+20}" y="{GRID_Y+30}" fill="{PURPLE}" font-family="monospace" font-size="13" font-weight="700">// PEDAGOGY &amp; COMMUNITY</text>')
     specs2 = [
-        ("Deep Learning", "PyTorch · TensorFlow · OpenCV · Vision"),
-        ("Data Science", "Scikit-Learn · Pandas · NumPy · EDA"),
-        ("Embedded IoT", "ESP32 · STM32 · Arduino · ROS · Sensors"),
+        ("BenCoder Media", "102K+ Community · 45+ Guides (est. 2022)"),
+        ("Everest Academy", "Lead AI Instructor · 'Build with AI' Bootcamp"),
+        ("Udemy Course", "Python for Beginners (Arabic) · 300+ Students · 4.8★"),
     ]
     for idx, (label, val) in enumerate(specs2):
         cy = GRID_Y + 62 + idx * 32
         svg.append(f'<text x="{COL2_X+20}" y="{cy}" fill="{MUTED}" font-size="12" font-family="monospace">{label}:</text>')
-        svg.append(f'<text x="{COL2_X+124}" y="{cy}" fill="{TEXT}" font-size="12.5" font-weight="500">{val}</text>')
+        svg.append(f'<text x="{COL2_X+124}" y="{cy}" fill="{TEXT}" font-size="12" font-weight="500">{val}</text>')
     svg.append('</g>')
 
     # Row 2
     GRID_Y2 = GRID_Y + CARD_H1 + GAP_Y
     CARD_H2 = 160
 
-    # Card 3: Academics & Ventures (Row 2, Col 1)
+    # Card 3: Academics & Production Systems (Row 2, Col 1)
     svg.append(f'<g class="f" style="animation-delay:0.35s">')
     svg.append(f'<rect x="{COL1_X}" y="{GRID_Y2}" width="{CARD_W}" height="{CARD_H2}" rx="10" fill="{CARD_BG}" stroke="{FRAME}" stroke-width="1"/>')
-    svg.append(f'<text x="{COL1_X+20}" y="{GRID_Y2+30}" fill="{GREEN}" font-family="monospace" font-size="13" font-weight="700">// ACADEMICS &amp; VENTURES</text>')
+    svg.append(f'<text x="{COL1_X+20}" y="{GRID_Y2+30}" fill="{GREEN}" font-family="monospace" font-size="13" font-weight="700">// ACADEMICS &amp; ARCHITECTURES</text>')
     specs3 = [
-        ("Education", "Data Science &amp; AI @ Univ Mostaganem"),
-        ("Ventures", "Founder · 0 → 1 Product Stealth Startup"),
-        ("Methodology", "Rapid Prototyping · Clean Architecture"),
+        ("State Degree", "Computer Engineering &amp; Data Science (5-Yr)"),
+        ("Flagship B2B", "JG SupplyNet · Algerian Sourcing &amp; RFQ Hub"),
+        ("AI Research", "PhytoSense · Dual-Vision LLM Ethnobotany (PFE)"),
     ]
     for idx, (label, val) in enumerate(specs3):
         cy = GRID_Y2 + 62 + idx * 32
         svg.append(f'<text x="{COL1_X+20}" y="{cy}" fill="{MUTED}" font-size="12" font-family="monospace">{label}:</text>')
-        svg.append(f'<text x="{COL1_X+124}" y="{cy}" fill="{TEXT}" font-size="12.5" font-weight="500">{val}</text>')
+        svg.append(f'<text x="{COL1_X+124}" y="{cy}" fill="{TEXT}" font-size="12" font-weight="500">{val}</text>')
     svg.append('</g>')
 
-    # Card 4: Tooling & Infra (Row 2, Col 2)
+    # Card 4: Hardware & Tooling (Row 2, Col 2)
     svg.append(f'<g class="f" style="animation-delay:0.45s">')
     svg.append(f'<rect x="{COL2_X}" y="{GRID_Y2}" width="{CARD_W}" height="{CARD_H2}" rx="10" fill="{CARD_BG}" stroke="{FRAME}" stroke-width="1"/>')
-    svg.append(f'<text x="{COL2_X+20}" y="{GRID_Y2+30}" fill="{GOLD}" font-family="monospace" font-size="13" font-weight="700">// TOOLING &amp; ENVIRONMENT</text>')
+    svg.append(f'<text x="{COL2_X+20}" y="{GRID_Y2+30}" fill="{GOLD}" font-family="monospace" font-size="13" font-weight="700">// HARDWARE &amp; TOOLING</text>')
     specs4 = [
-        ("OS / Kernel", "macOS (Apple Silicon) · Linux / POSIX"),
-        ("Workstation", "Ghostty · zsh · Neovim · VS Code"),
-        ("Database/CI", "PostgreSQL · Redis · Docker · GitHub Actions"),
+        ("Robotics/IoT", "DZDuino Labs · ESP32 · Raspberry Pi · Arduino"),
+        ("Workstation", "macOS (Apple Silicon) · Ghostty · zsh · Neovim"),
+        ("Payments/Deploy", "Chargily Pay (CIB/Edahabia) · Vercel · Docker"),
     ]
     for idx, (label, val) in enumerate(specs4):
         cy = GRID_Y2 + 62 + idx * 32
         svg.append(f'<text x="{COL2_X+20}" y="{cy}" fill="{MUTED}" font-size="12" font-family="monospace">{label}:</text>')
-        svg.append(f'<text x="{COL2_X+124}" y="{cy}" fill="{TEXT}" font-size="12.5" font-weight="500">{val}</text>')
+        svg.append(f'<text x="{COL2_X+124}" y="{cy}" fill="{TEXT}" font-size="12" font-weight="500">{val}</text>')
     svg.append('</g>')
 
     # Row 3: Wide Engineering Card (Row 3, Full Width)
@@ -174,10 +174,10 @@ def render():
 
     quote_lines = [
         "\"Architecting resilient, production-grade applications from first principles.",
-        " Bridging artificial intelligence research with scalable, high-velocity UX.\""
+        " Bridging applied artificial intelligence research with scalable engineering and developer pedagogy.\""
     ]
     for q_idx, q_line in enumerate(quote_lines):
-        svg.append(f'<text x="{PAD+20}" y="{GRID_Y3+66 + q_idx*24}" fill="{TEXT}" font-size="14" font-style="italic">{q_line}</text>')
+        svg.append(f'<text x="{PAD+20}" y="{GRID_Y3+66 + q_idx*24}" fill="{TEXT}" font-size="13.5" font-style="italic">{q_line}</text>')
 
     # Tech stack pill badges inside Card 3
     svg.append(f'<text x="{PAD+20}" y="{GRID_Y3+135}" fill="{MUTED}" font-family="monospace" font-size="12" font-weight="600">LANGUAGES &amp; RUNTIMES:</text>')
@@ -203,7 +203,7 @@ def render():
 
     # Contact & Links row inside wide card
     svg.append(f'<line x1="{PAD+20}" y1="{GRID_Y3+190}" x2="{W-PAD-20}" y2="{GRID_Y3+190}" stroke="{FRAME}" stroke-width="1" stroke-opacity="0.4"/>')
-    svg.append(f'<text x="{PAD+20}" y="{GRID_Y3+215}" fill="{MUTED}" font-size="12" font-family="monospace">PORTFOLIO: <tspan fill="{BLUE}">bencoder.netlify.app</tspan>   EMAIL: <tspan fill="{TEXT}">ben.coder.01@gmail.com</tspan></text>')
+    svg.append(f'<text x="{PAD+20}" y="{GRID_Y3+215}" fill="{MUTED}" font-size="12" font-family="monospace">PORTFOLIO: <tspan fill="{BLUE}">bencoder.site</tspan>   EMAIL: <tspan fill="{TEXT}">benkorich.abdenour@gmail.com</tspan></text>')
     svg.append(f'<text x="{W-PAD-20}" y="{GRID_Y3+215}" fill="{MUTED}" font-size="12" font-family="monospace" text-anchor="end">STATUS: <tspan fill="{GREEN}">ONLINE</tspan></text>')
     svg.append('</g>')
 
