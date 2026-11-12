@@ -1,46 +1,19 @@
+<!-- Every card is an animated SVG drawn by scripts/render_readme_cards.py and refreshed daily
+     by .github/workflows/update-profile-art.yml. Design: "Three Worlds", matched to bencoder.site.
+     Spacing is baked into the SVGs, so keep this block free of blank lines and keep the cards in
+     a row on one line with no spaces between them. -->
 <div align="center">
-
-# Abdenour Benkorich (BenCoder)
-
-### AI Instructor · Full-Stack Software Engineer · Data Science · Tech Content Creator
-
-<p align="center">
-  <a href="https://bencoder.site"><img src="https://img.shields.io/badge/Portfolio-bencoder.site-0A0A0A?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://instagram.com/ben.coderr"><img src="https://img.shields.io/badge/Instagram-102K%2B%20Community-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://www.udemy.com/course/bencoderr-python-course-arabic/"><img src="https://img.shields.io/badge/Udemy-4.8★%20Course%20(300%2B)-A435F0?style=flat-square&logo=udemy&logoColor=white" alt="Udemy" /></a>
-  <a href="https://linkedin.com/in/danour"><img src="https://img.shields.io/badge/LinkedIn-Abdenour%20Benkorich-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:benkorich.abdenour@gmail.com"><img src="https://img.shields.io/badge/Email-benkorich.abdenour%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Status-Available%20for%20AI%20Teaching%20%26%20Engineering-10B981?style=flat-square" alt="Status" />
-</p>
-
-<!-- ================================================================= -->
-<!-- 1. HERO TERMINAL PAIR: PROFILE SPEC CARD + LIVE ANALYTICS         -->
-<!-- ================================================================= -->
-
-<table>
-  <tr>
-    <td width="420" valign="top">
-      <img src="./profile-card.svg" width="420" alt="Abdenour Benkorich — Engineer Profile Card" />
-    </td>
-    <td width="420" valign="top">
-      <img src="./stats.svg" width="420" alt="Live GitHub Analytics & Streak Dashboard" />
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- ================================================================= -->
-<!-- 2. LIVE 53-WEEK CONTRIBUTION HEATMAP (Auto-Refreshed Daily)       -->
-<!-- ================================================================= -->
-
-<img src="./contrib-heatmap.svg" width="850" alt="Live 53-Week Contribution Heatmap (Auto-refreshed Daily)" />
-
-<p align="center">
-  <sub><i>Self-contained SVG engine with native SMIL/CSS animations · Auto-refreshed daily via GitHub Actions · Zero 3rd-party runtime dependencies</i></sub>
-</p>
-
+<a href="https://bencoder.site"><img src="./cards/hero.svg" width="100%" alt="Abdenour Benkorich (BenCoder). Lead AI Instructor @ Everest Academy · Creator (102K+). Architecting Algerian B2B & AI ethnobotany platforms." /></a><br>
+<img src="./cards/heatmap.svg" width="100%" alt="Abdenour's contribution graph, in blue, refreshed daily" /><br>
+<img src="./cards/activity.svg" width="100%" alt="Contributions in the last 12 months, by month, with streak and busiest day" /><br>
+<a href="https://bencoder.site/#work"><img src="./cards/build.svg" width="33.333%" alt="BUILD: 5 systems" /></a><a href="https://instagram.com/ben.coderr"><img src="./cards/brand.svg" width="33.333%" alt="BRAND: 102K+ community" /></a><a href="https://bencoder.site/#teaching"><img src="./cards/teach.svg" width="33.333%" alt="TEACH: 300+ students" /></a><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./cards/title-coding-dark.svg" /><img src="./cards/title-coding-light.svg" width="100%" alt="Shipped architectures" /></picture><br>
+<a href="https://bencoder.site"><img src="./cards/repo-danour-protfolio.svg" width="33.333%" alt="danour-protfolio" /></a><a href="https://phyto-sense-rose.vercel.app"><img src="./cards/repo-phyto-sense.svg" width="33.333%" alt="phyto-sense" /></a><a href="https://www.jgsupplynet.com"><img src="./cards/repo-jg-supplynet.svg" width="33.333%" alt="jg-supplynet" /></a>
 </div>
+
+<p align="center">
+<a href="https://bencoder.site">bencoder.site</a> &nbsp;/&nbsp; <a href="https://instagram.com/ben.coderr">instagram (@ben.coderr)</a> &nbsp;/&nbsp; <a href="https://linkedin.com/in/danour">linkedin</a> &nbsp;/&nbsp; <a href="https://www.udemy.com/course/bencoderr-python-course-arabic/">udemy</a> &nbsp;/&nbsp; <a href="mailto:benkorich.abdenour@gmail.com">email</a>
+</p>
 
 ---
 
@@ -64,6 +37,7 @@ interface SeniorEngineer {
   name: string;
   brand: string;
   title: string;
+  website: string;
   location: string;
   academics: string;
   pedagogy: string[];
@@ -76,6 +50,7 @@ const abdenour: SeniorEngineer = {
   name: "Abdenour Benkorich",
   brand: "BenCoder",
   title: "AI Instructor | Full-Stack Software Engineer | Data Science",
+  website: "https://bencoder.site",
   location: "Mostaganem, Algeria 🇩🇿 (UTC+1 · Worldwide Remote)",
   academics: "State Engineering Degree in Computer Engineering & Data Science @ Univ Mostaganem",
   pedagogy: [
@@ -88,10 +63,11 @@ const abdenour: SeniorEngineer = {
     "JG SupplyNet — Algerian National B2B Procurement Network (Sub-300ms, EN/FR/AR)",
     "PhytoSense — Dual-Vision LLM Ethnobotany Intelligence Platform (PFE 2026)",
     "VYRO — Made-to-Order Manufacturing Storefront with Chargily Pay (CIB/Edahabia)",
-    "New Way — AI Revenue Forecasting SaaS with Streaming Gemini & Linear Regression"
+    "New Way — AI Revenue Forecasting SaaS with Streaming Gemini & Linear Regression",
+    "danour-portfolio — Production Portfolio Platform with Astro 5 & React 19 (bencoder.site)"
   ],
   coreStrengths: [
-    "Production Full-Stack Architecture (Next.js 16, React 19, Astro 5, TypeScript, Tailwind)",
+    "Production Full-Stack Architecture (Next.js 16, React 19, Astro 5, TypeScript, Tailwind v4)",
     "Applied AI & LLM Systems (Gemini 3.8 Flash, Groq LPU, Vercel AI SDK, Prompt Eng, Ollama)",
     "High-Performance Backends & Data (FastAPI, Python, Node.js, PostgreSQL, Redis, SQLite FTS5)",
     "Hardware Telemetry & Robotics (DZDuino Labs, Arduino, ESP32, Raspberry Pi, Sensors)",
@@ -114,6 +90,18 @@ const abdenour: SeniorEngineer = {
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>
+        <b><a href="https://bencoder.site">bencoder.site</a></b><br>
+        <sub>Official Engineering & Platform</sub>
+      </td>
+      <td>
+        Personal portfolio platform engineered with Astro 5 static-first architecture, React 19 selective island hydration, Tailwind CSS v4, and authentic Arabic RTL typography.
+      </td>
+      <td>
+        <code>Astro 5</code> · <code>React 19</code> · <code>TypeScript</code> · <code>Tailwind v4</code>
+      </td>
+    </tr>
     <tr>
       <td>
         <b><a href="https://www.jgsupplynet.com">JG SupplyNet</a></b><br>
